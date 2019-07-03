@@ -1,13 +1,4 @@
-server: 
-  port: 9001
-  
-spring: 
-  application: 
-    name: spring-cloud-producer
+config: 
+  server: 
     value: 
       test: GOOOOOOOOO
-
-eureka: 
-  client: 
-    serviceUrl: 
-      defaultZone: http://localhost:3000/eureka/
