@@ -4,6 +4,8 @@ server:
 spring: 
   application: 
     name: spring-cloud-producer
+    value: 
+      test: GOOOOOOOOO
 
 eureka: 
   client: 
