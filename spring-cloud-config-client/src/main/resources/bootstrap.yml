@@ -1,0 +1,7 @@
+spring: 
+  cloud: 
+    config: 
+      name: config-client                                #配置文件名前缀
+      profile: pro                                    #使用的文件类型
+      uri: http://localhost:3004/                     #config server URI
+      label: master                                   # 配置仓库的分支
